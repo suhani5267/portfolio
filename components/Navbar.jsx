@@ -13,7 +13,8 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-0 left-0 w-full backdrop-blur bg-gray-900/60 border-b border-gray-800 z-50">
-      <div className="max-w-5xl mx-4  py-4 flex justify-between items-center">
+      {/* 🔹 Fixed alignment here */}
+      <div className="max-w-5xl mx-auto px-4 py-4 flex justify-between items-center">
         <Link href="/" className="text-2xl font-bold text-blue-400">
           Suhani Kaushik<span className="text-gray-100"> | Portfolio</span>
         </Link>

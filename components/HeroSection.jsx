@@ -66,7 +66,7 @@ export default function HeroSection() {
 
       {/* Right image section */}
       <div className="flex-1 mb-10 md:mb-0 flex justify-center">
-        <div className="relative w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-blue-500 shadow-lg shadow-blue-500/30">
+        <div className="relative w-48 h-48 md:w-64 md:h-64 ml-50 rounded-full overflow-hidden border-4 border-blue-500 shadow-lg shadow-blue-500/30">
           <Image
             src="/profile.jpeg" // 👉 Place your image in public/profile.jpg
             alt="Suhani Profile"
